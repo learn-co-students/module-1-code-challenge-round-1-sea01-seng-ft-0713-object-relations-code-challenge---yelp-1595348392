@@ -10,7 +10,8 @@ end
 # initialize(given_name, family_name)
 person1 = Customer.new("Brad", "Beggs")
 person2 = Customer.new("Peter", "Beggs")
-person3 = Customer.new("Joy", "Beggs")
+person3 = Customer.new("Brad", "Beggs")
+person4 = Customer.new("test", "test")
 
 
 
@@ -21,7 +22,7 @@ restaurant3 = Restaurant.new("The Last")
 
 # reviews (joiner) initialize(rating, customer, restaurant)
 review1 = Review.new(5, person1, restaurant1)
-review2 = Review.new(3, person2, restaurant2)
+review2 = Review.new(3, person1, restaurant1)
 review3 = Review.new(1, person3, restaurant3)
 review4 = Review.new(1, person1, restaurant3)
 review5 = Review.new(1, person2, restaurant2)
